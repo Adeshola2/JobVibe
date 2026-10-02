@@ -1,0 +1,15 @@
+export const jobs = [
+  { id: 1, title: "Frontend React Developer", company: "Nova Labs", location: "Lagos, Nigeria", type: "Full-time", category: "Engineering", salary: "₦450k – ₦700k", salaryMin: 450000, level: "Mid-level", posted: "2 days ago", logo: "NL", description: "Build polished React interfaces for a fast-growing product team.", skills: ["React", "TypeScript", "Tailwind CSS"] },
+  { id: 2, title: "Product Designer", company: "KoraPay", location: "Remote", type: "Full-time", category: "Design", salary: "₦500k – ₦850k", salaryMin: 500000, level: "Mid-level", posted: "4 days ago", logo: "KP", description: "Design simple, accessible experiences for payments products.", skills: ["Figma", "UX Research", "Design Systems"] },
+  { id: 3, title: "Backend Node.js Engineer", company: "FinStack", location: "Abuja, Nigeria", type: "Full-time", category: "Engineering", salary: "₦600k – ₦1m", salaryMin: 600000, level: "Senior", posted: "1 week ago", logo: "FS", description: "Design reliable APIs and services for financial applications.", skills: ["Node.js", "PostgreSQL", "REST API"] },
+  { id: 4, title: "Digital Marketing Specialist", company: "MarketHaus", location: "Lagos, Nigeria", type: "Contract", category: "Marketing", salary: "₦300k – ₦500k", salaryMin: 300000, level: "Junior", posted: "1 week ago", logo: "MH", description: "Own campaigns, content and growth experiments across digital channels.", skills: ["SEO", "Content", "Analytics"] },
+  { id: 5, title: "Customer Success Manager", company: "CloudDesk", location: "Remote", type: "Full-time", category: "Customer Success", salary: "₦350k – ₦600k", salaryMin: 350000, level: "Mid-level", posted: "2 weeks ago", logo: "CD", description: "Help customers get measurable value from our collaboration platform.", skills: ["SaaS", "Communication", "CRM"] },
+  { id: 6, title: "Data Analyst", company: "GreenGrid", location: "Ibadan, Nigeria", type: "Full-time", category: "Data", salary: "₦400k – ₦650k", salaryMin: 400000, level: "Mid-level", posted: "2 weeks ago", logo: "GG", description: "Turn business data into useful dashboards and decisions.", skills: ["SQL", "Excel", "Power BI"] }
+];
+
+export const companies = [
+  { id: 1, name: "Nova Labs", industry: "Technology", location: "Lagos", employees: "50–100", jobs: 12, logo: "NL", about: "Nova Labs builds digital products for ambitious African businesses." },
+  { id: 2, name: "KoraPay", industry: "Fintech", location: "Lagos", employees: "100–250", jobs: 18, logo: "KP", about: "KoraPay makes payments easier for businesses and their customers." },
+  { id: 3, name: "FinStack", industry: "Financial Technology", location: "Abuja", employees: "50–100", jobs: 7, logo: "FS", about: "FinStack provides modern infrastructure for financial teams." },
+  { id: 4, name: "CloudDesk", industry: "SaaS", location: "Remote", employees: "25–50", jobs: 9, logo: "CD", about: "CloudDesk helps distributed teams collaborate without friction." }
+];
